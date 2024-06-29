@@ -10,3 +10,52 @@
     чем стили в медиазапросе предпочтений пользователя
   */
 }
+
+:root .theme_light {
+  --accent-color: #ff8dcb;
+  --decorated-zone-border-color: #353430;
+  --heading-color: #ffc2e6;
+  --font-family: "IBM Plex Mono";
+  --background-page-color: #FFF1F7;
+  --section-content-text-color: #353430;
+  --button-color: ##353430;
+  --button-active-color: #353430;
+  --button-hover-color: rgb(50 49 45 / 0.4);
+  --button-focus-color: #353430;
+  --header-content-text-color: #353430;
+  --link-shadow-color: #ff8dcb;
+  --link-hover-color: rgb(50 49 45 / 0.4);
+  --link-focus-color: #ff8dcb;
+  --display: none;
+}
+
+.page.theme_light {
+  background-image: url(../images/cover-image-light.png);
+}
+
+
+
+@media (prefers-color-scheme: light) {
+  :root {
+    --accent-color: #ff8dcb;
+    --decorated-zone-border-color: #353430;
+    --heading-color: #ffc2e6;
+    --font-family: "IBM Plex Mono";
+    --background-page-color: #FFF1F7;
+    --section-content-text-color: #353430;
+    --button-color: ##353430;
+    --button-active-color: #353430;
+    --button-hover-color: rgb(50 49 45 / 0.4);
+    --button-focus-color: #353430;
+    --header-content-text-color: #353430;
+    --link-shadow-color: #ff8dcb;
+    --link-hover-color: rgb(50 49 45 / 0.4);
+    --link-focus-color: #ff8dcb;
+    --display: none;
+  }
+
+  .page {
+    background-image: url(../images/cover-image-light.png);
+  }
+
+}
