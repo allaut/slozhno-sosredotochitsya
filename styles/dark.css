@@ -17,6 +17,7 @@
   --heading-color: #db00ff;
   --font-family: "IBM Plex Mono";
   --background-page-color: #000028;
+  --title-accent-color: #ff0070;
   --section-content-text-color: #f1b2ce;
   --button-color: #ff0070;
   --button-active-color: #ff0070;
@@ -30,5 +31,6 @@
 }
 
 .page.theme_dark {
-  background-image: url(../images/cover-image-dark.png);
+  background-image: url("../images/cover-image-dark.png");
+
 }
