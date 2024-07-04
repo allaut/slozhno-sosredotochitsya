@@ -25,7 +25,7 @@
   --button-focus-color: #353430;
   --header-content-text-color: #353430;
   --link-shadow-color: #ff8dcb;
-  --link-hover-color: rgb(50 49 45 / 0.4);
+  --link-hover-color: #353430;
   --link-focus-color: #353430;
   --display: none;
 }
@@ -52,7 +52,7 @@
     --button-focus-color: #353430;
     --header-content-text-color: #353430;
     --link-shadow-color: #ff8dcb;
-    --link-hover-color: rgb(50 49 45 / 0.4);
+    --link-hover-color: #353430;
     --link-focus-color: #353430;
     --display: none;
   }
